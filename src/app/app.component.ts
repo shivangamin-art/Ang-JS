@@ -12,7 +12,7 @@ export class AppComponent {
 
   title = 'angular-course';  // fixes unit test
 
-  // Load the first 4 courses
-  courses: Course[] = COURSES.slice(0, 4);
+  // Load the first 6 courses
+  courses: Course[] = COURSES.slice(0, 6);
 
 }
