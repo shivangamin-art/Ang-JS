@@ -1,19 +1,37 @@
-
 .top-menu {
-    background: #1976d2;
-    padding: 2px 15px;
+  background: #1976d2;
+  padding: 2px 15px;
 }
 
 .logo {
   max-height: 55px;
 }
 
-
 .courses {
-    max-width: 400px;
-    margin: 50px auto;
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
+.course-card {
+  background: white;
+  border-radius: 6px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
 
+.course-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
-
+.course-description {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
